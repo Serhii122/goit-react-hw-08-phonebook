@@ -1,0 +1,18 @@
+.navLinks {
+    display: flex;
+    gap: 50px;
+}
+
+.navLink {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.active {
+    color: #ffa500;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 700;
+}

@@ -1,0 +1,31 @@
+.filter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.filterLabel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+     color: #000000;
+  }
+  .filterInput {
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #000000;
+    background-color: transparent;
+    width: 400px;
+  }
+  .filterInput:hover {
+  border: 1px solid #000000;
+  background-color: #699bf8;
+}
+.filterInput::placeholder {
+  color: #000000;
+}
